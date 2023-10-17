@@ -1,0 +1,199 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial;
+}
+.nav{
+  
+display:flex;
+justify-content: space-between;
+align-items: center;
+background-color:#222 ;
+width: 100%;
+padding: 1rem 6.5rem;
+z-index: 100000;
+position:fixed;
+
+
+
+}
+.nav h2{
+  color: #fff;
+  font-size: 1.7rem;
+
+}
+#item{
+  display:flex;
+  justify-content: cente;
+  align-items: center;
+}
+#item li{
+  list-style: none;
+  padding-right: 50px;
+}
+#item li a{
+  text-decoration: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: white;
+}
+#item :hover{
+  color:#ff5733;
+  cursor: pointer;
+}
+
+#item .icon i{
+  color:#fff;
+  padding-right: 30px;
+  font-weight: bolder;
+}
+.back{
+  background-image: url(cover.jpg);
+  width:100%;
+  height:100vh;
+  background-size: cover;
+  z-index: -1;
+}
+.overlay{
+background: #171819;
+width: 100%;
+height: 100%;
+opacity:0.85;
+}
+.mid{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.mid p{
+  color:#6e9e46;
+  font-size: 1.3rem;
+  margin-top: 1.4rem;
+}
+.mid h2{
+  color: #fff;
+  font-size: 3rem;
+}
+.mid .btn{
+margin-top: 2rem;
+}
+
+.mid .btn a{
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#simple{
+  color: #fff;
+  font-weight: 500;
+  padding: 0.9rem 1.6rem;
+}
+ #simple :hover{
+color: #ff5733;
+}
+.border{
+  color: #ff5733;
+  font-weight: 500;
+  padding: 0.9rem 1.6rem;
+  border: 1px solid #ff5733;
+  border-radius: 3px;
+}
+.mid .border :hover{
+  background-color: #fff;
+  color: #f13a11;
+} 
+.details{
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+ padding: 8rem 15rem;
+background-color: #171819;*/
+}
+
+.details h3,h6,h5{
+  color: #fff;
+}
+ .details .one{
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+ 
+}
+.two{
+  width: 45%;
+  border-left: 1px solid #666262;
+  padding-left: 4rem;
+}
+.one h3{
+  font-size: 2.5rem;
+  padding-bottom: 1.1rem;
+  
+
+}
+.one h6{
+  font-size: 1.3rem;
+  font-weight: 400;
+  padding-bottom: 1.2rem;
+  
+}
+.one p{
+  color: #666262;
+  font-size: 1.2rem;
+  padding-bottom: 3rem;
+
+}
+
+.one a{
+  color:#fff;
+  background-color: #f13a11;
+  padding: 1rem 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  
+}
+.one a:hover{
+  background-color: #fff;
+  color: #f13a11;
+}
+
+.two h3{
+  font-size: 2.5rem;
+ 
+  
+}
+.two h5{
+  font-size: 1.1rem;
+}
+.two p{
+  font-size: 1.1rem;
+  color: #666262;
+  margin-bottom: 0.8rem;
+}
+.trainer{
+  background-color: #f9f9f9;
+  padding: 8rem;
+  display: flex;
+}
+.trainer .about{
+width: 39%;
+}
+.trainer .about h2{
+   color: #212529;
+   font-size: 2.1rem;
+   padding-bottom: 1.8rem;
+}
+.trainer .about p{
+  color: #222728;
+  font-size: 1.1rem;
+}
+.trainer .people{
+width: 55%;
+}
